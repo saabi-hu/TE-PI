@@ -1,0 +1,80 @@
+#
+# Configurációs file a TE-PI jelzőrendszerhez
+#
+
+# A portok alapállapota lehet nyitott (0, a port nem csatlakozik a GND-re), vagy zárt (1, a port össze
+# van kötve a GND-vel) GND, a PiFace board sárga csatlakozóinak bal szélén található
+# input portok: port id = alapértelmezett állapot, prioritás, csoport
+# output portok: port id = alapértelmezett állapot
+
+# Első kártya
+iPORT0=0,3,GRP2
+iPORT1=0,1,GRP1
+iPORT2=0,1,GRP1
+iPORT3=1,2,GRP2
+iPORT4=1,2,GRP3
+iPORT5=0,3,GRP4
+iPORT6=0,3,GRP4
+iPORT7=0,3,GRP0
+oPORT0=0
+oPORT1=0
+oPORT2=0
+oPORT3=0
+oPORT4=0
+oPORT5=0
+oPORT6=0
+oPORT7=0
+
+# Második kártya
+iPORT8=0,1,GRP0
+iPORT9=0,3,GRP0
+iPORT10=0,3,GRP0
+iPORT11=0,3,GRP0
+iPORT12=0,2,GRP0
+iPORT13=0,3,GRP0
+iPORT14=0,3,GRP0
+iPORT15=0,3,GRP0
+oPORT8=0
+oPORT9=0
+oPORT10=0
+oPORT11=0
+oPORT12=0
+oPORT13=0
+oPORT14=0
+oPORT15=0
+
+# Harmadik kártya
+iPORT16=0,3,GRP0
+iPORT17=0,2,GRP0
+iPORT18=0,3,GRP0
+iPORT19=0,2,GRP0
+iPORT20=0,3,GRP0
+iPORT21=0,1,GRP0
+iPORT22=0,3,GRP0
+iPORT23=0,2,GRP0
+oPORT16=0
+oPORT17=0
+oPORT18=0
+oPORT19=0
+oPORT20=0
+oPORT21=0
+oPORT22=0
+oPORT23=0
+
+# Negyedik kártya
+iPORT24=0,2,GRP0
+iPORT25=0,2,GRP0
+iPORT26=0,3,GRP0
+iPORT27=0,1,GRP0
+iPORT28=0,3,GRP0
+iPORT29=0,3,GRP0
+iPORT30=0,3,GRP0
+iPORT31=0,3,GRP0
+oPORT24=0
+oPORT25=0
+oPORT26=0
+oPORT27=0
+oPORT28=0
+oPORT29=0
+oPORT30=0
+oPORT31=0
